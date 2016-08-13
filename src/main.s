@@ -4,7 +4,7 @@
 ; ld65 -C lorom128.cfg -o my_game.smc main.o
 ;
 .define ROM_NAME "MYGAME"
-.include "init.inc"
+.include "include/init.inc"
 
 reset:
   init_cpu
